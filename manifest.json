@@ -1,0 +1,21 @@
+[
+  {
+    "category": "Books",
+    "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "imageUrl": "",
+    "name": "Audible",
+    "description": "Fetches audiobook metadata from Audible via api.audnex.us (no authentication required). Provides summary, authors, narrators, series, genres, cover and rating.",
+    "overview": "Fetches audiobook metadata from Audible via api.audnex.us",
+    "owner": "HellTruckerfr",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/HellTruckerfr/jellyfin-plugin-audible/releases/download/v1.0.0/jellyfin-plugin-audible_1.0.0.0.zip",
+        "checksum": "de9edc7b4f989c24efac50d9f95a81e8",
+        "timestamp": "2026-04-27T00:00:00Z"
+      }
+    ]
+  }
+]

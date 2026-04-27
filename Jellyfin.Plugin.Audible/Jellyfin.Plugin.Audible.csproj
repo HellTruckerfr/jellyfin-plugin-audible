@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <JellyfinDir>C:\Program Files\Jellyfin\Server</JellyfinDir>
+    <JellyfinDir Condition="'$(JellyfinDir)' == ''">C:\Program Files\Jellyfin\Server</JellyfinDir>
   </PropertyGroup>
 
   <ItemGroup>
